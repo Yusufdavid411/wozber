@@ -52,12 +52,19 @@
 .active {
   background-color: #ccc;
 }
-.container {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
-  transition: 0.4s;
+
+
+/* visible nav ...... */
+.myNav {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 5%;
+  left: 0;
+  background-color: rgb(205, 191, 191);
+  overflow-y: hidden;
+  transition: 0.5s;
 }
 
 
