@@ -22,6 +22,7 @@
   display: flex;
 }
 
+
 /* navigation icon ........... */
 .navigation1 .nav_icon {
   display: inline-block;
@@ -50,24 +51,56 @@
 }
 
 .active {
-  background-color: #ccc;
+  background-color: white;
 }
 
 
-/* visible nav ...... */
+/* mobile nav ...... */
 .myNav {
-  height: 0%;
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-  top: 5%;
+  display: flex;
+  position: absolute;
+  top: -100%;
+  right: 0;
   left: 0;
-  background-color: rgb(205, 191, 191);
-  overflow-y: hidden;
-  transition: 0.5s;
+  flex-direction: column;
+  background: white;
+  text-align: left;
+  padding: 0 5%;
+  transition: all .4s ease;
+  align-items: center;
+}
+
+.mynavOpen {
+  top: 4%;
+}
+
+.mynavOpen a {
+
+  display: block;
+  padding-bottom: 1rem;
+  font-size: 1rem;
 }
 
 
+/* laptop nav ........................ */
+
+.myNavlp {
+  display: none;
+}
+
+@media(min-width:450px) {
+
+  .myNavlp {
+    display: flex;
+  }
+
+  .home {
+    max-width: none;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+}
 
 
 

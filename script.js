@@ -8,22 +8,64 @@ function myFunction(x) {
 }
 
 var acc = document.getElementsByClassName("nav_icon");
+var nav = document.getElementById("myNav");
 var i;
 
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
-    document.getElementById("myNav").style.height = "100%";
+    nav.classList.toggle("mynavOpen")
   
-    var panel = document.getElementById("myNav");
 
-    if (panel.style.display === "block") {
-      panel.style.height = "0%";
+    if (nav.classList === "mynavOpen") {
+      nav.classList.remove("mynavOpen")
     } else {
-      panel.style.display = "block";
+      nav.classList.toggle("mynav")
+      nav.style.top = "block";
     }
   });
 }
- 
+
+
+// toggle icon navbar..........................................
+
+let menuIcon = document.querySelector("#menu-icon");
+let navlist = document.querySelector(".navlist");
+
+menuIcon.onclick = ()=>{
+    menuIcon.classList.toggle("bx-x");
+    navlist.classList.toggle("open");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
