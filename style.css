@@ -41,6 +41,11 @@
   display: none;
 }
 
+.topnav {
+  padding: 20px 10px;
+  margin: 20px auto;
+}
+
 .topnav a {
   text-decoration: none;
 }
@@ -122,7 +127,6 @@
   .topnav_lap {
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;
     margin: 20px auto;
   }
 
