@@ -10,21 +10,53 @@
 }
 
 /* header .............. */
+
+/* mobile nav ...... */
+.topnav .myNav {
+  display: flex;
+  position: absolute;
+  top: -100%;
+  right: 0;
+  left: 0;
+  flex-direction: column;
+  background: white;
+  text-align: left;
+  padding: 0 5%;
+  transition: all .4s ease;
+  align-items: center;
+}
+
+.topnav .mynavOpen {
+  top: 4%;
+}
+
+.topnav .mynavOpen a {
+  display: block;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+
+/* laptop ........ */
+.topnav_lap {
+  display: none;
+}
+
 .topnav a {
   text-decoration: none;
 }
-.header .topnav .navigation1 {
+
+.topnav .navigation {
   display: flex;
   justify-content: space-between;
 }
 
-.topnav .navigation1 .log_icon {
+.topnav .navigation .log_icon {
   display: flex;
 }
 
 
 /* navigation icon ........... */
-.navigation1 .nav_icon {
+.navigation .nav_icon {
   display: inline-block;
   cursor: pointer;
 }
@@ -55,52 +87,67 @@
 }
 
 
-/* mobile nav ...... */
-.myNav {
-  display: flex;
-  position: absolute;
-  top: -100%;
-  right: 0;
-  left: 0;
-  flex-direction: column;
-  background: white;
-  text-align: left;
-  padding: 0 5%;
-  transition: all .4s ease;
-  align-items: center;
-}
-
-.mynavOpen {
-  top: 4%;
-}
-
-.mynavOpen a {
-
-  display: block;
-  padding-bottom: 1rem;
-  font-size: 1rem;
-}
 
 
-/* laptop nav ........................ */
 
-.myNavlp {
-  display: none;
-}
 
-@media(min-width:450px) {
 
-  .myNavlp {
-    display: flex;
-  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:700px) {
 
   .home {
     max-width: none;
-    margin: 0 auto;
-    padding: 0 10px;
+  }
+
+  .topnav {
+    display: none;
+  }
+
+  .topnav_lap {
+    display: flex;
+    justify-content: space-between;
+    padding: ;
+    margin: 20px auto;
+  }
+
+  .topnav_lap a {
+    text-decoration: none;
+  }
+
+  .topnav_lap .log_icon {
+    display: flex;
+  }
+
+  .topnav_lap .join {
+    display: flex;
+  }
+
+
+
+
+  .topnav_lap .join img {
+    width: 40px;
   }
 
 }
+
+
 
 
 
