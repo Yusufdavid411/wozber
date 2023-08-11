@@ -27,6 +27,20 @@ for (i = 0; i < acc.length; i++) {
 }
 
 
+// language_choice ...............
+
+function displayLanguages() {
+  var lan = document.getElementsByClassName('languages')
+  lan.classList.toggle("languagesOpen")
+
+}
+
+
+
+
+
+
+
 
 
 

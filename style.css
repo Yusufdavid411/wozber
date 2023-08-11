@@ -1,4 +1,5 @@
 * {
+  font-family: Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -11,53 +12,34 @@
 
 /* header .............. */
 
-/* mobile nav ...... */
-.topnav .myNav {
-  display: flex;
-  position: absolute;
-  top: -100%;
-  right: 0;
-  left: 0;
-  flex-direction: column;
-  background: white;
-  text-align: left;
-  padding: 0 5%;
-  transition: all .4s ease;
-  align-items: center;
-}
-
-.topnav .mynavOpen {
-  top: 12%;
-}
-
-.topnav .mynavOpen a {
-  display: block;
-  padding-bottom: 1rem;
-  font-size: 1rem;
-}
-
 /* laptop ........ */
 .topnav_lap {
   display: none;
 }
 
+/* mobile nav ...... */
+
 .topnav {
-  padding: 20px 10px;
-  margin: 20px auto;
+  padding: 10px 0px;
+  margin: 10px auto;
 }
 
-.topnav a {
-  text-decoration: none;
-}
 
 .topnav .navigation {
   display: flex;
   justify-content: space-between;
 }
+.topnav a {
+  text-decoration: none;
+}
 
 .topnav .navigation .log_icon {
   display: flex;
+  justify-content: space-between;
 }
+.topnav .navigation .log_icon 
+
+
 
 
 /* navigation icon ........... */
@@ -90,6 +72,57 @@
 .active {
   background-color: white;
 }
+
+
+
+
+.topnav .myNav {
+  display: flex;
+  position: absolute;
+  top: -100%;
+  right: 0;
+  left: 0;
+  flex-direction: column;
+  background: white;
+  text-align: left;
+  padding: 0 5%;
+  transition: all .4s ease;
+  align-items: center;
+  height: 100vh;
+}
+
+.topnav .mynavOpen {
+  top: 6%;
+}
+
+.topnav .mynavOpen a {
+  display: block;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+
+
+
+/* language_choice ........... */
+.topnav .myNav .language_choice {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topnav .myNav img {
+  width: 40px;
+}
+
+.topnav .myNav .languages {
+  position: absolute;
+  display: none;
+}
+
+.topnav .myNav .languagesOpen {
+  display: block;
+}
+
+
 
 
 
