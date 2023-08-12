@@ -27,17 +27,22 @@
 
 .topnav .navigation {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 .topnav a {
   text-decoration: none;
+  color: black;
 }
 
 .topnav .navigation .log_icon {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
-.topnav .navigation .log_icon 
+.topnav .navigation .login_btn {
+  margin-right: 10px;
+}
 
 
 
@@ -77,16 +82,14 @@
 
 
 .topnav .myNav {
-  display: flex;
   position: absolute;
   top: -100%;
   right: 0;
   left: 0;
-  flex-direction: column;
   background: white;
-  text-align: left;
-  padding: 0 5%;
+  text-align: center;
   transition: all .4s ease;
+  margin: 0 auto;
   align-items: center;
   height: 100vh;
 }
@@ -106,20 +109,30 @@
 /* language_choice ........... */
 .topnav .myNav .language_choice {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  margin: 15px 20px 25px;
+}
+
+.topnav .myNav .flag_icon {
+  display: flex;
+  align-items: center;
 }
 
 .topnav .myNav img {
-  width: 40px;
+  width: 30px;
+  height: 20px;
+  margin-right: 8px;
 }
 
 .topnav .myNav .languages {
-  position: absolute;
   display: none;
 }
 
 .topnav .myNav .languagesOpen {
   display: block;
+  position: absolute;
+
 }
 
 
