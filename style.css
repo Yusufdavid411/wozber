@@ -80,7 +80,7 @@
 
 
 
-
+/* my nav ........ */
 .topnav .myNav {
   position: absolute;
   top: -100%;
@@ -187,10 +187,7 @@
   .topnav_lap .join {
     display: flex;
   }
-
-
-
-
+  
   .topnav_lap .join img {
     width: 40px;
   }
