@@ -153,7 +153,8 @@
 }
 
 .topnav .myNav .nav_links a:first-child{
-  text-decoration: underline;
+  outline: black;
+  text-decoration: underline rgb(201, 38, 38);
 }
 
 
