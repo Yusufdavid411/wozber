@@ -31,7 +31,7 @@
   justify-content: space-between;
   margin: 0 auto 30px;
 }
-.topnav a {
+.topnav .navigation a {
   text-decoration: none;
   color: black;
 }
@@ -99,6 +99,7 @@
   margin: 0 auto;
   align-items: center;
   height: 100vh;
+  scroll-behavior: unset;
 }
 
 .topnav .mynavOpen {
@@ -145,9 +146,15 @@
   position: absolute;
 }
 
-
+/* navigation links ............ */
 .topnav .myNav .nav_links a {
   margin: 4px auto 20px;
+  text-decoration: none;
+}
+
+.topnav .myNav .nav_links:first-child{
+  outline: black;
+  text-decoration: underline rgb(201, 38, 38);
 }
 
 
