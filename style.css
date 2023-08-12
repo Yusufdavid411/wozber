@@ -20,8 +20,8 @@
 /* mobile nav ...... */
 
 .topnav {
-  padding: 10px 0px;
-  margin: 15px auto;
+  padding: 8px 0px;
+  margin: 10px auto;
 }
 
 
@@ -103,7 +103,7 @@
 }
 
 .topnav .mynavOpen {
-  top: 9%;
+  top: 50px;
 }
 
 .topnav .mynavOpen a {
