@@ -32,7 +32,7 @@ for (i = 0; i < acc.length; i++) {
 
 const header = document.querySelector(".navigation");
 window.addEventListener("scroll", function(){
-    header.classList.toggle("sticky", window.scrollY > 50)
+    header.classList.toggle("sticky", window.scrollY > 20)
 })
 
 

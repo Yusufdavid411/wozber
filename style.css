@@ -32,16 +32,15 @@
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 5px 20px;
+  padding: 13px 20px ;
   width: 100%;
   left: 0;
   top: 0;
-  border-bottom: 1px solid transparent;
 }
 
 .navigation.sticky {
   z-index: -1;
-  border-bottom: 1px solid rgb(79, 74, 74);
+  box-shadow: 2px 2px 5px rgb(131, 121, 121);
 }
 
 .topnav .navigation a {
@@ -53,6 +52,7 @@
   font-size: 1.5rem;
   font-weight: 550;
   color: rgb(60, 56, 56);
+  z-index: 1;
 }
 
 .topnav .navigation .log_icon {
@@ -60,6 +60,7 @@
   padding-right: 35px;
   align-items: center;
   justify-content: space-between;
+  z-index: 10001;
 }
 
 .topnav .navigation .login_btn {
@@ -113,7 +114,7 @@
   text-align: center;
   transition: all .4s ease;
   margin: 0 auto;
-  z-index: -1;
+  /* z-index: -1; */
   align-items: center;
   height: 100vh;
 }
