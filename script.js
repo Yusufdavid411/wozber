@@ -15,16 +15,25 @@ for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
     nav.classList.toggle("mynavOpen")
+    nav.style.zIndex = "-1";
   
 
     if (nav.classList === "mynavOpen") {
       nav.classList.remove("mynavOpen")
+      nav.style.zIndex = "-1";
+
     } else {
       nav.classList.toggle("mynav")
-      nav.style.top = "block";
+      // nav.style.top = "block";
     }
   });
 }
+
+
+const header = document.querySelector(".navigation");
+window.addEventListener("scroll", function(){
+    header.classList.toggle("sticky", window.scrollY > 50)
+})
 
 
 // language_choice ...............
