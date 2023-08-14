@@ -136,7 +136,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 30px 28px 60px;
+  margin: 35px 28px 65px;
 }
 
 .topnav .myNav .language {
@@ -169,7 +169,7 @@
 }
 
 .topnav .myNav .nav_links a {
-  margin: 4px auto 18px;
+  margin: 6px auto 18px;
   text-decoration: none;
   color: black;
   padding: 0 0 10px;
@@ -177,8 +177,7 @@
 
 .topnav .myNav .nav_links a:first-child{
   text-decoration: 2px underline black;
-  padding: 0 0 10px;
-
+  padding:  10px;
 }
 
 .topnav .myNav .nav_links a:hover {
@@ -187,7 +186,7 @@
 }
 
 .topnav .myNav .nav_btn {
-  margin: 100px auto 0;
+  margin: 30% auto 0;
   
 }
 
@@ -203,6 +202,31 @@
 
 
 
+
+
+/* body .............. */
+
+.container {
+  margin: 10px;
+}
+
+.container1 {
+  margin: 100px 0 0;
+}
+
+.container1 .free_resume {
+  font-size: 1rem;
+}
+
+.container1 .note {
+  margin: 20px 0 0;
+  font-size: .9rem;
+  max-width: 280px;
+}
+
+.container1 img {
+  width: 50px;
+}
 
 
 
