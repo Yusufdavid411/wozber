@@ -15,7 +15,7 @@ for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
     nav.classList.toggle("mynavOpen")
-    nav.style.zIndex = "-1";
+    this.style.zIndex = "-1";
   
 
     if (nav.classList === "mynavOpen") {

@@ -40,7 +40,7 @@
 
 .navigation.sticky {
   z-index: -1;
-  box-shadow: 2px 2px 5px rgb(131, 121, 121);
+  box-shadow: 1px 1px 5px rgb(131, 121, 121);
 }
 
 .topnav .navigation a {
@@ -114,13 +114,13 @@
   text-align: center;
   transition: all .4s ease;
   margin: 0 auto;
-  /* z-index: -1; */
+  z-index: -1;
   align-items: center;
   height: 100vh;
 }
 
 .topnav .mynavOpen {
-  top: 4%;
+  top: 6%;
 }
 
 .topnav .mynavOpen a {
@@ -149,8 +149,8 @@
 }
 
 .topnav .myNav img {
-  width: 25px;
-  height: 20px;
+  width: 23px;
+  height: 18px;
   margin-right: 8px;
 }
 
@@ -187,7 +187,18 @@
 }
 
 .topnav .myNav .nav_btn {
-  margin: 30px auto 0;
+  margin: 100px auto 0;
+  
+}
+
+.topnav .myNav .nav_btn a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  background: rgb(11, 11, 155);
+  width: 70%;
+  border-radius: 5px;
+  margin: 0 auto;
 }
 
 
