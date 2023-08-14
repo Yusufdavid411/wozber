@@ -219,16 +219,54 @@
 }
 
 .container1 .note {
-  margin: 20px 0 0;
+  margin: 25px 0 35px;
   font-size: .9rem;
   max-width: 280px;
 }
 
-.container1 img {
-  width: 50px;
+.container1 .lap_btn {
+  display: none;
 }
 
+.container1 .images {
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: -1;
+}
 
+.container1 img[src="img/resume1.png"] {
+  max-width: 300px;
+  border-radius: 2px;
+  filter: drop-shadow(2px 2px 5px rgb(223, 221, 221));
+}
+
+.container1 img[src="img/resumepics1.png"] {
+  width: 120px;
+  position: absolute;
+  left: -2px;
+  border-radius: 8px;
+}
+
+.container1 .mobile_btn {
+  margin: 55px 0;
+  text-align: center;
+}
+
+.container1 .mobile_btn a {
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  background: rgb(11, 11, 155);
+  width: 70%;
+  border-radius: 5px;
+}
+
+.container1 .mobile_btn p {
+  font-size: .7rem;
+  color: rgb(93, 90, 90);
+}
 
 
 
