@@ -205,10 +205,12 @@
 
 /* body .............. */
 
-.container {
+.container1_2 {
   margin: 15px;
 }
 
+
+/* container1 ..................... */
 .container1 {
   margin: 110px 0 0;
 }
@@ -247,7 +249,7 @@
 .container1 img[src="img/resumepics1.png"] {
   width: 125px;
   position: absolute;
-  left: -2.5px;
+  left: -1px;
   border-radius: 8px;
 }
 
@@ -273,7 +275,33 @@
 }
 
 
+/* container2 ..................... */
 
+.container2 h2 {
+  font-size: 1.2rem;
+}
+
+.container2 .note {
+  margin: 12px 0 50px;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  color: rgb(116, 113, 113);
+  word-spacing: .2rem;
+}
+
+.container2 .note a {
+  font-size: 1rem;
+  color: rgb(116, 113, 113);
+  text-decoration: 1px underline rgb(116, 113, 113);
+}
+
+
+/* container3 ..................... */
+
+.container3 {
+  background: black;
+  color: white;
+}
 
 
 
