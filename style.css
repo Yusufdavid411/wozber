@@ -136,7 +136,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 35px 28px 65px;
+  margin: 38px 28px 65px;
 }
 
 .topnav .myNav .language {
@@ -169,7 +169,7 @@
 }
 
 .topnav .myNav .nav_links a {
-  margin: 6px auto 18px;
+  margin: 8px auto 18px;
   text-decoration: none;
   color: black;
   padding: 0 0 10px;
@@ -211,17 +211,20 @@
 }
 
 .container1 {
-  margin: 100px 0 0;
+  margin: 110px 0 0;
 }
 
-.container1 .free_resume {
-  font-size: 1rem;
+.container1 .free_resume h1 {
+  font-size: 2rem;
+  max-width: 307px;
 }
 
 .container1 .note {
-  margin: 25px 0 35px;
+  margin: 28px 0 40px;
   font-size: .9rem;
   max-width: 280px;
+  line-height: 1.2rem;
+  color: rgb(116, 113, 113);
 }
 
 .container1 .lap_btn {
@@ -242,14 +245,14 @@
 }
 
 .container1 img[src="img/resumepics1.png"] {
-  width: 120px;
+  width: 125px;
   position: absolute;
-  left: -2px;
+  left: -2.5px;
   border-radius: 8px;
 }
 
 .container1 .mobile_btn {
-  margin: 55px 0;
+  margin: 65px 0;
   text-align: center;
 }
 
@@ -257,15 +260,16 @@
   font-size: 1rem;
   color: white;
   text-decoration: none;
-  padding: 15px;
-  background: rgb(11, 11, 155);
-  width: 70%;
+  padding: 14px;
+  background: rgb(67, 67, 214);
+  width: 95%;
   border-radius: 5px;
 }
 
 .container1 .mobile_btn p {
   font-size: .7rem;
   color: rgb(93, 90, 90);
+  margin: 20px 0 0;
 }
 
 
