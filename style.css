@@ -187,14 +187,13 @@
 
 .topnav .myNav .nav_btn {
   margin: 30% auto 0;
-  
 }
 
 .topnav .myNav .nav_btn a {
   color: white;
   text-decoration: none;
   padding: 15px;
-  background: rgb(11, 11, 155);
+  background: rgb(67, 67, 214);
   width: 70%;
   border-radius: 5px;
   margin: 0 auto;
@@ -207,7 +206,7 @@
 /* body .............. */
 
 .container {
-  margin: 10px;
+  margin: 15px;
 }
 
 .container1 {
@@ -216,15 +215,14 @@
 
 .container1 .free_resume h1 {
   font-size: 2rem;
-  max-width: 307px;
 }
 
 .container1 .note {
-  margin: 28px 0 40px;
-  font-size: .9rem;
-  max-width: 280px;
-  line-height: 1.2rem;
+  margin: 30px 0 50px;
+  font-size: 1rem;
+  line-height: 1.3rem;
   color: rgb(116, 113, 113);
+  word-spacing: .2rem;
 }
 
 .container1 .lap_btn {
@@ -235,13 +233,15 @@
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
   z-index: -1;
 }
 
 .container1 img[src="img/resume1.png"] {
   max-width: 300px;
+  width: 100%;
   border-radius: 2px;
-  filter: drop-shadow(2px 2px 5px rgb(223, 221, 221));
+  filter: drop-shadow(0px 0px 200px rgb(228, 227, 227));
 }
 
 .container1 img[src="img/resumepics1.png"] {
@@ -257,13 +257,13 @@
 }
 
 .container1 .mobile_btn a {
-  font-size: 1rem;
+  font-size: .9rem;
   color: white;
   text-decoration: none;
-  padding: 14px;
+  padding: 12px 18px;
   background: rgb(67, 67, 214);
-  width: 95%;
   border-radius: 5px;
+  letter-spacing: .1rem;
 }
 
 .container1 .mobile_btn p {
@@ -292,7 +292,7 @@
 
 
 
-@media(min-width:700px) {
+@media(min-width:550px) {
 
   .home {
     max-width: none;
