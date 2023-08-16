@@ -40,7 +40,7 @@
 
 .navigation.sticky {
   z-index: -1;
-  box-shadow: 1px 1px 5px rgb(131, 121, 121);
+  box-shadow: 1px 1px 5px rgb(4, 2, 2);
 }
 
 .topnav .navigation a {
@@ -154,8 +154,11 @@
   margin-right: 8px;
 }
 
-.topnav .myNav .languages {
+.header .languages {
   display: none;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .topnav .myNav .languagesOpen {
@@ -343,23 +346,59 @@
   .topnav_lap {
     display: flex;
     justify-content: space-between;
-    margin: 20px auto;
+    margin: 0 auto;
+    position: fixed;
+    background-color: rgb(245, 245, 245);
+    align-items: center;
+    padding: 15px 0;
+    width: 100%;
+    left: 0;
+    top: 0;
   }
 
   .topnav_lap a {
     text-decoration: none;
+    color: black;
   }
 
   .topnav_lap .log_icon {
     display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
   }
 
+  .topnav_lap .log_icon a {
+    margin: 10px;
+  }
+
+  
   .topnav_lap .join {
     display: flex;
+    justify-content: space-between;
+    margin: 0 20px 0;
+    
+  }
+
+  .topnav_lap .join a {
+    margin: 10px;
+  }
+
+  .topnav_lap .join .flag_icon{
+    justify-content: center;
+    display: flex;
+    align-items: center;
   }
   
   .topnav_lap .join img {
     width: 40px;
+  }
+
+  .topnav_lap .join i {
+    margin: ;
+  }
+
+  .container1 {
+    margin: 100px auto;
   }
 
 }
