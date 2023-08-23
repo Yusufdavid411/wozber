@@ -30,10 +30,17 @@ for (i = 0; i < acc.length; i++) {
 }
 
 
-const header = document.querySelector(".navigation");
+const mobileNav = document.querySelector(".navigation");
 window.addEventListener("scroll", function(){
-    header.classList.toggle("sticky", window.scrollY > 20)
+    mobileNav.classList.toggle("sticky", window.scrollY > 20)
 })
+
+const lapNav = document.querySelector(".topnav_lap");
+window.addEventListener("scroll", function(){
+    lapNav.classList.toggle("sticky", window.scrollY > 20)
+})
+
+
 
 
 // language_choice ...............

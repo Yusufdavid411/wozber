@@ -40,7 +40,7 @@
 
 .navigation.sticky {
   z-index: -1;
-  box-shadow: 1px 1px 5px rgb(4, 2, 2);
+  box-shadow: 1px 1px 5px rgb(218, 217, 217);
 }
 
 .topnav .navigation a {
@@ -335,8 +335,14 @@
 
 @media(min-width:550px) {
 
+  html {
+    max-width: 1500px;
+    margin: auto;
+  }
+
   .home {
-    max-width: none;
+    min-width: 1500px;
+    margin: 0 auto;
   }
 
   .topnav {
@@ -348,39 +354,87 @@
     justify-content: space-between;
     margin: 0 auto;
     position: fixed;
-    background-color: rgb(245, 245, 245);
+    background-color: white;
     align-items: center;
-    padding: 15px 0;
+    padding: 5px 0;
     width: 100%;
     left: 0;
     top: 0;
   }
 
-  .topnav_lap a {
-    text-decoration: none;
-    color: black;
+  .topnav_lap.sticky {
+    z-index: 1;
+    box-shadow: 1px 1px 5px rgb(218, 217, 217);
   }
 
   .topnav_lap .log_icon {
     display: flex;
     justify-content: space-between;
-    margin: 0 20px;
+    align-items: center;
+    margin: 0 20px 0 50px;
   }
 
+  .topnav_lap .log_icon .logo {
+    margin: 0 0 0 20px;
+  }
+
+  .topnav_lap .log_icon .logo a {
+    font-size: 2rem;
+    text-decoration: none;
+    margin: 8px 0 8px 8px;
+    color: black;
+  }
+
+  .topnav_lap .myNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 8px;
+  }
+
+  .topnav_lap .myNav a:first-child{
+    text-decoration: 1px underline black;
+    padding:  10px;
+  }
+  
   .topnav_lap .log_icon a {
+    text-decoration: none;
+    text-align: center;
     margin: 10px;
+    font-size: .8rem;
+    color: rgb(131, 129, 129);
+    font-weight: 600;
   }
 
+  .topnav_lap .myNav a:hover {
+    text-decoration: 1px underline black;
+    transition: 2s ;
+  }
   
   .topnav_lap .join {
     display: flex;
     justify-content: space-between;
-    margin: 0 20px 0;
-    
+    margin: 0 50px 0 0;
   }
 
   .topnav_lap .join a {
+    text-decoration: none;
     margin: 10px;
+    font-size: .8rem;
+    font-weight: 600;
+    color: rgb(73, 73, 72);
+  }
+
+  .topnav_lap .join .login_btn {
+    padding: 10px;
+    margin: 0 0 0 10px;
+  }
+
+  .topnav_lap .join .create_btn {
+    background: rgb(238, 236, 236);
+    padding: 8px;
+    margin: 0 25px 0 5px;
+    border-radius: 5px;
   }
 
   .topnav_lap .join .flag_icon{
@@ -390,16 +444,82 @@
   }
   
   .topnav_lap .join img {
-    width: 40px;
+    width: 23px;
+    height: 16px;
   }
 
   .topnav_lap .join i {
-    margin: ;
+    margin: 0 10px 0 5px;
+    width: 8px;
+    color: rgb(123, 118, 118);
   }
 
+
+  /* container1 ..................... */
   .container1 {
-    margin: 100px auto;
+    margin: 150px auto 0;
   }
+
+  .container1 .free_resume h1 {
+    font-size: 2rem;
+  }
+
+  .container1 .note {
+    margin: 30px 0 50px;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    color: rgb(116, 113, 113);
+    word-spacing: .2rem;
+  }
+
+  .container1 .lap_btn {
+    display: none;
+  }
+
+  .container1 .images {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+  }
+
+  .container1 img[src="img/resume1.png"] {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 2px;
+    filter: drop-shadow(0px 0px 200px rgb(228, 227, 227));
+  }
+
+  .container1 img[src="img/resumepics1.png"] {
+    width: 125px;
+    position: absolute;
+    left: -1px;
+    border-radius: 8px;
+  }
+
+  .container1 .mobile_btn {
+    margin: 65px 0;
+    text-align: center;
+  }
+
+  .container1 .mobile_btn a {
+    font-size: .9rem;
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px;
+    background: rgb(67, 67, 214);
+    border-radius: 5px;
+    letter-spacing: .1rem;
+  }
+
+  .container1 .mobile_btn p {
+    font-size: .7rem;
+    color: rgb(93, 90, 90);
+    margin: 20px 0 0;
+  }
+
+
 
 }
 
