@@ -434,6 +434,21 @@ html {
   background: rgb(232, 232, 232);
 }
 
+.container4 .mobile_btn {
+  margin: 65px 0;
+  text-align: center;
+}
+
+.container4 .mobile_btn a {
+  font-size: .9rem;
+  color: white;
+  text-decoration: none;
+  padding: 12px 18px;
+  background: rgb(67, 67, 214);
+  border-radius: 5px;
+  letter-spacing: .1rem;
+}
+
 
 
 
