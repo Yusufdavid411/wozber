@@ -348,10 +348,10 @@ html {
 }
 
 .container4 .header h1 {
-  font-size: 2.2rem;
-  line-height: 3.2rem;
+  font-size: 2rem;
+  line-height: 3.1rem;
   color: rgb(56, 56, 56);
-  letter-spacing: .5px;
+  letter-spacing: .2px;
 }
 
 .container4 .header p {
@@ -448,6 +448,52 @@ html {
   border-radius: 5px;
   letter-spacing: .1rem;
 }
+
+
+
+/* container5 ..................... */
+
+.container5 {
+  margin: 30px 15px;
+}
+
+.container5 .build1 span {
+  color: rgb(187, 4, 4);
+  font-size: .8rem;
+  letter-spacing: .1rem;
+}
+
+.container5 .build1 .header {
+  margin: 100px auto 0;
+}
+
+.container5 .build1 h1 {
+  font-size: 2rem;
+  margin: 20px auto 40px;
+  color: rgb(56, 56, 56);
+}
+
+
+.container5 .build1 .messages p {
+  padding: 15px;
+  background-color: #f4f4f4;
+  margin: 5px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.container5 .build2 {
+  margin: 100px auto 0;
+  position: relative;
+}
+
+.container5 .build2 img {
+  width: 20%;
+}
+
+
+
+
 
 
 
