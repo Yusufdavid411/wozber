@@ -485,6 +485,7 @@ html {
 .container5 .build2 {
   margin: 100px auto 0;
   position: relative;
+  z-index: -1;
 }
 
 .container5 .build2 img {
