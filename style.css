@@ -489,7 +489,8 @@ html {
 }
 
 .container5 .build2 img {
-  width: 40px;
+  width: 40%;
+  max-width: 250px;
 }
 
 
