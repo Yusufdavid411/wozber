@@ -435,7 +435,7 @@ html {
 }
 
 .container4 .mobile_btn {
-  margin: 65px 0;
+  margin: 65px 0 40px;
   text-align: center;
 }
 
@@ -443,7 +443,7 @@ html {
   font-size: .9rem;
   color: white;
   text-decoration: none;
-  padding: 12px 18px;
+  padding: 15px 18px;
   background: rgb(67, 67, 214);
   border-radius: 5px;
   letter-spacing: .1rem;
@@ -454,32 +454,52 @@ html {
 /* container5 ..................... */
 
 .container5 {
-  margin: 30px 15px;
+  margin: 30px 13px 100px;
+}
+
+.container5 .build {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .container5 .build1 span {
   color: rgb(187, 4, 4);
   font-size: .8rem;
-  letter-spacing: .1rem;
+  letter-spacing: .2rem;
+  font-weight: 700;
 }
 
 .container5 .build1 .header {
-  margin: 100px auto 0;
+  margin: 80px auto 40px;
 }
 
 .container5 .build1 h1 {
-  font-size: 2rem;
+  font-size: 1.9rem;
   margin: 20px auto 40px;
-  color: rgb(56, 56, 56);
+  color: rgb(47, 47, 47);
+  line-height: 1.5;
+  font-weight: 600;
+  letter-spacing: .1rem;
 }
 
 
 .container5 .build1 .messages p {
-  padding: 15px;
+  padding: 18px;
   background-color: #f4f4f4;
   margin: 5px;
   font-size: 1rem;
   line-height: 1.5rem;
+  max-width:350px;
+}
+
+.container5 .build1 .messages .p1 {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.container5 .build1 .messages .p3 {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
 .container5 .build2 {
@@ -493,7 +513,9 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   position: relative;
+  width: fit-content;
 }
 
 .container5 .images_center{
@@ -501,6 +523,7 @@ html {
   max-width: 350px;
   align-items: center;
   justify-content: center;
+  width: fit-content;
 }
 
 .container5 .build2 .images {
@@ -509,8 +532,8 @@ html {
 
 
 .container5 .build2 img[src="img/2-xlg-x1(1).png"] {
-  width: 80%;
-  height: 50%;
+  width: 70%;
+  height: 20%;
   filter: drop-shadow(2px 5px 10px rgb(228, 227, 227));
 }
 
@@ -519,13 +542,17 @@ html {
   height: 29%;
   position: absolute;
   z-index: 1;
-  top: -2px;
+  top: -10px;
   left: -1px;
+  margin-left: 10%;
   filter: drop-shadow(2px 5px 10px rgb(228, 227, 227));
 }
 
 .container5 .build2 .list {
-  margin: 190px 0 0 0 ;
+  margin: 250px 0 80px 100px;
+  width: fit-content;
+  justify-content: right;
+  text-align: left;
   position: absolute;
   padding: 10px 20px;
   background: white;
@@ -533,8 +560,8 @@ html {
 }
 
 .container5 .build2 .list li {
-  margin: 10px 30px;
-  right: 100px;
+  margin: 15px 30px;
+  text-wrap: nowrap;
 }
 
 
@@ -543,10 +570,39 @@ html {
 
 
 .container6 {
-  margin: 30px 15px;
+  margin: 100px 0 10px;
 }
 
-.container6
+.container6 .blackbg {
+  background: black;
+  color: white;
+  padding: 20px 10px;
+}
+
+.container6 h1 {
+  margin: 30px 0 0 0;
+  text-align: center;
+}
+
+.container6 .resumes {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.container6 .resumes div {
+  width: 350px;
+  max-width: 500px;
+}
+
+.container6 .resumes
+
+
+
+
+
+
 
 
 
