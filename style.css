@@ -464,7 +464,7 @@ html {
 
 .container5 .build1 {
   max-width:550px;
-  margin: 20px 0 0 10px;
+  /* margin: 20px 0 0 10px; */
 }
 
 .container5 .build1 span {
@@ -512,7 +512,7 @@ html {
 }
 
 .container5 .build2 {
-  margin: 100px auto 0;
+  margin: 120px auto 0;
   position: relative;
   z-index: -1;
 }
