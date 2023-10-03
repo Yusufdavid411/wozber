@@ -589,6 +589,7 @@ html {
   margin: 30px 0 0 0;
   padding: 10px 0;
   text-align: center;
+  
 }
 
 .container6 .resumes {
@@ -600,7 +601,7 @@ html {
 
 .container6 .resumes .resume {
   width: 400px;
-  margin: 20px;
+  margin: 20px 20px 0;
   max-width: 500px;
 }
 
@@ -627,47 +628,72 @@ html {
 
 
 
+/* container7 ..................... */
 
 
+.container7 {
+  margin: 30px 13px 100px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-.container1 .images {
-  position: relative;
-  display: flex;
-  align-items: center;
+.container7 .services {
   justify-content: center;
-  width: 100%;
-  /* max-width: 380px; */
-  margin: 0 auto;
-  z-index: -1;
+  align-items: center;
+  text-align: center;
 }
 
-.container1 img[src="img/resume1.png"] {
-  /* max-width: 380px; */
-  width: 100%;
-  /* height: 80vh; */
-  border-radius: 2px;
-  filter: drop-shadow(2px 5px 10px rgb(228, 227, 227));
+.container7 h1 {
+  margin: 30px 0 0 0;
+  padding: 10px 0;
+  max-width: 350px;
 }
 
-.container1 img[src="img/resumepics1.png"] {
-  width: 35%;
-  min-width: 80px;
-  position: absolute;
-  left: -10px;
-  border-radius: 8px;
-  filter: drop-shadow(2px 0px 5px rgb(228, 227, 227));
+.container7 .services p {
+  margin: 5px auto;
+  padding: 10px 0;
+  color: #7b7979;
+  font-weight: 600;
+  line-height: 1.3rem;
+  max-width: 300px;
+  font-size: .9rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
