@@ -918,6 +918,18 @@ html {
   padding: 0 0 5px;
 }
 
+.container10 .magazine {
+  padding: 5px 12px 10px;
+  width: 50%;
+  max-width: 400px;
+  height: 75vh;
+  margin: 0 8px;
+}
+
+.container10 .magazine:hover {
+  box-shadow: .1px .1px 100px rgb(233, 233, 233);
+}
+
 .container10 .magazine .img {
   margin: 60px 0 0;
 }
@@ -953,6 +965,7 @@ html {
   margin: 20px 0 12px;
   font-size: 1.4rem;
   line-height: 2rem;
+  color: black;
 }
 
 .container10 .guide p {
@@ -965,51 +978,89 @@ html {
 
 
 
+/* container11 ..................... */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* last ..................... */
-
-
-.last {
-  margin: 30px 13px 40px;
-}
-
-.last .services {
-  justify-content: center;
-  align-items: center;
+.container11 {
+  margin: 80px 0 0;
+  background: black;
   text-align: center;
-  max-width: 320px;
-
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
-.last h1 {
-  margin: 30px auto 0;
-  padding: 10px 0;
+.container11 h1 {
+  font-size: 2rem;
+  color: white;
+  margin: 90px 0 0;
+  line-height: 3rem;
 }
 
-.last .services p {
-  margin: 5px auto;
-  padding: 10px 0;
-  color: #7b7979;
-  font-weight: 600;
-  line-height: 1.3rem;
+.container11 .mobile_btn {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.container11 .mobile_btn a {
   font-size: .9rem;
+  color: white;
+  text-decoration: none;
+  padding: 17px 25px;
+  background: rgb(67, 67, 214);
+  border-radius: 5px;
+  letter-spacing: .1rem;
+}
+
+.container11 .mobile_btn p {
+  font-size: .8rem;
+  color: rgb(93, 90, 90);
+  margin: 25px 0 0;
+}
+
+
+
+/* container12 ..................... */
+
+.container12 {
+  padding: 30px 15px 10px;
+  background: #f4f4f4;
+}
+
+.container12 .other h3 {
+  font-size: .9rem;
+  font-weight: 800;
+  margin: 50px 0 30px; 
+}
+
+.container12 .other p {
+  font-size: .8rem;
+  color: rgb(139, 139, 139);
+  margin: 0 0 20px;
+  font-weight: 600;
+  word-spacing: .2rem;
+}
+
+
+/* footer ................................ */
+
+footer {
+  background: #f4f4f4;
+  padding: 30px 15px 50px;
+}
+
+footer p {
+  color: rgb(139, 139, 139);
+  font-size: .9rem;
+  line-height: 1.2rem;
+}
+
+footer p a {
+  color: rgb(139, 139, 139);
+}
+
+footer p span {
+  color: rgb(240, 50, 50);
 }
 
 
@@ -1184,6 +1235,710 @@ html {
     color: rgb(116, 113, 113);
     text-decoration: 1px underline rgb(116, 113, 113);
   }
+
+
+
+
+
+/* container3 ..................... */
+
+.container3 {
+  background: black;
+  padding: 40px 50px;
+  margin: 0 40px 50px;
+  border-radius: 8px;
+}
+
+.container3 h1 {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  margin: 10px auto;
+  padding: 40px 0;
+}
+
+
+
+  /* container4 ..................... */
+
+
+  .container4 {
+    margin: 30px 15px;
+  }
+
+  .container4 .header {
+    margin: 85px 0 10px;
+  }
+
+  .container4 .header h1 {
+    font-size: 2rem;
+    line-height: 3.1rem;
+    color: rgb(56, 56, 56);
+    letter-spacing: .2px;
+  }
+
+  .container4 .header p {
+    margin: 12px 0 80px;
+  }
+
+  .container4 .header p a {
+    color: rgb(48, 47, 47);
+    text-decoration: 1.7px underline;
+    letter-spacing: 1.3px;
+  }
+
+  .container4 .all_template {
+    display: flex;
+  }
+
+  .container4 .templates {
+    margin: auto 20px;
+  }
+
+  .container4 .template_centered {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 470px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container4 .template {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px auto 22px;
+    z-index: -1;
+  }
+
+  .container4 .bg_template img {
+    width: 100%;
+    height: 480px;
+    margin: 0 auto;
+    border-radius: 14px;
+  }
+
+  .container4 .img_template {
+    position: absolute;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .container4 .img_template img {
+    width: 68%;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .container4 .template .rate {
+    margin: 35px 0 0 0 ;
+    text-align: center;
+  }
+
+  .container4 .template .rate p {
+    margin: 10px 0 15px;
+    font-size: .8rem;
+    letter-spacing: .6px;
+    font-weight: 750;
+  }
+
+  .container4 .template .rate p span {
+    color: rgb(241, 115, 69);
+    font-size: .9rem;
+  }
+
+  .container4 .template .rate p b {
+    font-size: 1rem;
+    margin: 0 5px;
+  }
+
+  .container4 .template .rate small {
+    font-size: .6rem;
+    margin: 15px 0 0 0;
+    padding: 2px 6px;
+    border-radius: 50px;
+    letter-spacing: .5px;
+    background: rgb(232, 232, 232);
+  }
+
+  .container4 .mobile_btn {
+    margin: 65px 0 40px;
+    text-align: center;
+  }
+
+  .container4 .mobile_btn a {
+    font-size: .9rem;
+    color: white;
+    text-decoration: none;
+    padding: 15px 18px;
+    background: rgb(67, 67, 214);
+    border-radius: 5px;
+    letter-spacing: .1rem;
+  }
+
+
+
+  /* container5 ..................... */
+
+  .container5 {
+    margin: 30px 13px 100px;
+  }
+
+
+  .container5 .build1 {
+    max-width:550px;
+    margin: 20px 50px 10px;
+  }
+
+  .container5 .build1 span {
+    color: rgb(173, 5, 5);
+    font-size: .8rem;
+    letter-spacing: .2rem;
+    font-weight: 700;
+  }
+
+  .container5 .build1 .header {
+    margin: 80px auto 40px;
+  }
+
+  .container5 .build1 h1 {
+    font-size: 1.9rem;
+    margin: 20px auto 40px;
+    color: rgb(47, 47, 47);
+    line-height: 1.5;
+    font-weight: 600;
+    letter-spacing: .1rem;
+  }
+
+  .container5 .build1 .messages p {
+    padding: 18px;
+    background-color: #f4f4f4;
+    margin: 5px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .container5 .build1 .messages .p1 {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+  }
+
+  .container5 .build1 .messages .p3 {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+
+  .container5 .build1 span I {
+    font-size: 2rem;
+    color: rgb(255, 102, 0);
+    margin: 0 0 0 15PX;
+  }
+
+  .container5 .build2 {
+    margin: 120px auto 0;
+    position: relative;
+    z-index: -1;
+  }
+
+  .container5 .build2 .imagelist {
+    margin: 20px auto 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: fit-content;
+  }
+
+  .container5 .images_center{
+    margin: 0 auto;
+    max-width: 350px;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+  }
+
+  .container5 .build2 .images {
+    max-width: 350px;
+  }
+
+
+  .container5 .build2 img[src="img/2-xlg-x1(1).png"] {
+    width: 70%;
+    height: 20%;
+    filter: drop-shadow(2px 5px 10px rgb(228, 227, 227));
+  }
+
+  .container5 .build2 img[src="img/4-w187x2.jpg"] {
+    width: 28%;
+    height: 29%;
+    position: absolute;
+    z-index: 1;
+    top: -15px;
+    left: -1px;
+    margin-left: 10%;
+    filter: drop-shadow(2px 5px 10px rgb(228, 227, 227));
+  }
+
+  .container5 .build2 .list {
+    margin: 200px 0 0 60px;
+    width: fit-content;
+    text-align: left;
+    position: absolute;
+    padding: 8px 14px;
+    background: white;
+    filter: drop-shadow(2px 5px 10px rgb(228, 227, 227));
+  }
+
+  .container5 .build2 .list li {
+    margin: 15px 30px;
+    text-wrap: nowrap;
+  }
+
+
+
+
+
+
+    /* container6 ..................... */
+
+  .container6 {
+    margin: 180px 0 10px;
+  }
+
+  .container6 .blackbg {
+    background: black;
+    color: white;
+    padding: 30px 10px;
+  }
+
+  .container6 h1 {
+    margin: 80px 0 30px;
+    padding: 10px 0;
+    text-align: center;
+    
+  }
+
+  .container6 .resumes {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .container6 .resumes .resume {
+    width: 400px;
+    margin: 20px 20px 0;
+    max-width: 500px;
+  }
+
+  .container6 .resumes .bx {
+    padding: 8px;
+    border-radius: 15px;
+    background: rgb(241, 174, 30);
+    color: black;
+    font-size: 2rem;
+    margin: 20px 0 10px;
+  }
+
+  .container6 .resumes h3 {
+    margin: 10px;
+  }
+
+  .container6 .resumes p {
+    margin: 10px auto;
+    padding: 10px 0;
+    color: #7b7979;
+    font-weight: 600;
+    line-height: 1.5rem;
+  }
+
+
+
+  /* container7 ..................... */
+
+  .container7 {
+    margin: 50px 25px 20px;
+  }
+
+  .container7 .services {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto;
+  }
+
+  .container7 .services h1 {
+    margin: 90px auto 30px;
+    letter-spacing: .1rem;
+    font-size: 3rem;
+    line-height: 4rem;
+    /* padding: 5px 0; */
+  }
+
+  .container7 .services p {
+    margin: 10px auto 50px;
+    padding: 10px 0;
+    color: #7b7979;
+    font-weight: 600;
+    line-height: 2rem;
+    font-size: 1.2rem;
+  }
+
+
+  /* .service2 .................................. */
+
+  .service1 {
+    margin: 35px 30px 10px;
+    padding: 50px;
+    background: rgb(246, 145, 63);
+    display: flex;
+  }
+
+  .service1 .paid {
+    width: 50%;
+    margin: 0 0 0 40px;
+  }
+
+  .service1 .paid span {
+    background: #161616;
+    color: rgb(230, 230, 230);
+    border-radius: 25px;
+    padding: 3px 6px;
+    font-size: .6rem;
+    font-weight: 700;
+  }
+
+  .service1 .paid h2 {
+    margin: 13px auto;
+    font-size: 1.4rem;
+  }
+
+  .service1 .paid p {
+    color: #333333;
+    word-spacing: .2rem;
+    line-height: 1.5rem;
+    font-size: .9rem;
+    max-width: 400px;
+  }
+
+  .service1 .paid .img1 {
+    display: none;
+  }
+
+  .service1 .paid ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .service1 .paid ul li {
+    color: #222222;
+    word-spacing: .2rem;
+    line-height: 1.7rem;
+    font-size: .9rem;
+  }
+
+  .service1 .paid ul li::before {
+    content: '\2713'; /* Unicode character for a checkmark */
+    padding: 0 12px 0 0;
+    left: 0;
+    top: 0;
+  }
+
+  .service1 .paid .button {
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .service1 .paid button {
+    padding: 14px 16px;
+    color: white;
+    background: rgb(36, 36, 223);
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+
+  .service1 .img2 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    max-width: 500px;
+  }
+
+  .service1 .img2 img {
+    width: 95%;
+  }
+
+
+  /* .service2 .................................. */
+
+  .service2 {
+    margin: 35px 40px 10px;
+    padding: 50px;
+    background: rgb(223, 223, 223);
+    display: flex;
+  }
+
+  .service2 .paid {
+    width: 50%;
+    margin: 0 0 0 40px;
+  }
+
+  .service2 .paid span {
+    background: #161616;
+    color: rgb(230, 230, 230);
+    border-radius: 25px;
+    padding: 3px 6px;
+    font-size: .6rem;
+    font-weight: 700;
+  }
+
+  .service2 .paid h2 {
+    margin: 13px auto;
+    font-size: 1.4rem;
+  }
+
+  .service2 .paid p {
+    color: #333333;
+    word-spacing: .2rem;
+    line-height: 1.5rem;
+    font-size: .9rem;
+    max-width: 400px;
+  }
+
+  .service2 .img1 {
+    display: none;
+  }
+
+  .service2 .paid ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .service2 .paid ul li {
+    color: #222222;
+    word-spacing: .2rem;
+    line-height: 1.7rem;
+    font-size: .9rem;
+  }
+
+  .service2 .paid ul li::before {
+    content: '\2713'; /* Unicode character for a checkmark */
+    padding: 0 12px 0 0;
+    left: 0;
+    top: 0;
+  }
+
+  .service2 .paid .button {
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .service2 .paid button {
+    padding: 14px 28px;
+    color: white;
+    background: rgb(36, 36, 223);
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+  }
+
+  .service2 .img2 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    max-width: 500px;
+  }
+
+  .service2 .img2 img {
+    width: 100%;
+  }
+
+
+  
+
+  /* container8 ..................... */
+  .container8 {
+    margin: 60px 15px 20px;
+  }
+
+  
+  .container8 .questions {
+    max-width: 700px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container8 .question {
+    max-width: 700px;
+  }
+
+  .container8 h2 {
+    font-size: 2rem;
+    max-width: 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    line-height: 2.5rem;
+    padding: 10px;
+  }
+
+  .container8 .question h3 {
+    color: #333333;
+    line-height: 1rem;
+    font-size: 1.4rem;
+    margin: 50px 0 42px;
+    font-weight: 600;
+  }
+
+  .container8 .question p {
+    color: #5e5e5e;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    margin: 15px 0 50px;
+    word-spacing: .2rem;
+  }
+
+  .container8 hr {
+    border-width: 1px;
+  }
+
+
+  /* container9 ..................... */
+
+  .container9 {
+    margin: 150px 30px 20px;
+  }
+
+  .container9 h1 {
+    font-size: 2rem;
+    margin: 10px 0 50px;
+    line-height: 2.8rem;
+    max-width: 450px;
+  }
+
+  .container9 .members {
+    margin: 0 30px 0;
+  }
+
+  .container9 .member .img_note {
+    display: flex;
+    align-items: center;
+    margin: 38px 0 15px;
+  }
+
+  .container9 .member .img_note .note {
+    margin: 0 0 0 10px;
+  }
+
+  .container9 .member img {
+    width: 67px;
+    border-radius: 50%;
+    margin: 15px 0 0;
+  }
+
+  .container9 .member h2{
+    margin: 0 0 5px;
+    font-size: 1.2rem;
+  }
+
+  .container9 .member span {
+    color: #676767;
+    line-height: 1.2rem;
+    font-size: .9rem;
+    margin: 10px 0;
+  }
+
+  .container9 .member p {
+    color: #7b7b7b;
+    line-height: 1.2rem;
+    font-size: .9rem;
+    margin: 5px 0;
+    line-height: 1.5rem;
+  }
+
+  .container9 hr {
+    margin: 70px 0;
+    border-color: rgb(245, 245, 245);
+    border-width: 1px;
+  }
+
+
+
+    /* container10 ..................... */
+
+  .container10 {
+    margin: 90px 15px 20px;
+  }
+
+  .container10 h1 {
+    font-size: 1.9rem;
+    margin: 10px 0 60px;
+    line-height: 2.8rem;
+    font-weight: 600;
+    padding: 0 0 5px;
+  }
+
+  .container10 .magazines {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .container10 .magazine .img {
+    margin: 60px 0 0;
+  }
+
+  .container10 .magazine img {
+    width: 100%;
+  }
+
+  /* date ................ */
+  .container10 .magazine .date {
+    display: flex;
+    margin: 20px 0;
+  }
+
+  /* container11 ..................... */
+
+  .container11 h1 {
+    font-size: 3rem;
+    color: white;
+    margin: 90px 0 0;
+    line-height: 4rem;
+    max-width: 650px;
+  }
+
+
+
+    /* footer ........................ */
+
+  .container12 {
+    padding: 30px 25px 50px;
+  }
+  
+  .container12 .others {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .container12 .other {
+    width: 50%;
+  }
+
+
+
 
 
 
